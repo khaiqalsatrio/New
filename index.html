@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Font Awesome icons link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-button">
+        <a href="#homepage" id="home-link" class="custom-link"><button type="button" class="button">Home</button></a>
+        <a href="#tentang" class="tentang-link"><button type="button" class="button">Tentang</button></a>
+        <a href="https://www.contoh.com" class="custom-link"><button type="button" class="button">Hubungi</button></a>        
+    </div>
+    <div class="navbar-h2">
+        <ul>
+            <h2 class="h2">TimeTravel</h2>
+        </ul>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Content -->
+    <section id="home">
+        <div class="container-content">
+            <h3 class="h3-content">
+                Iklas Muda Perkasa <br> Tour And Travel
+            </h3>
+            <p class="p-content">
+                Petualangan tak terduga menanti di sudut-sudut yang belum pernah kita jelajahi sebelumnya Bersama Iklas Muda Perkasa Tour and Travel, <br> bukan hanya destinasi yang kita temui, tetapi juga pengalaman tak terlupakan.
+            </p>
+        </div>
+    </section>
+
+    <section id="homepage">
+    <div class="home" style="font-size: 25px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; ">Home<span style="color: coral; font-size: 22px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Page</span></div>
+    <div>
+        <h2 class="h2-content">Iklas Muda Perkasa Tour And Travel</h2>
+        <p class="p-content2">
+            Tempatnya para petualang sejati, Kami menyediakan pengalaman wisata yang tak terlupakan, mulai dari petualangan alam hingga liburan santai di destinasi eksotis di seluruh dunia, Temukan destinasi wisata yang paling diminati oleh seluruh penjuru dunia Mulai dari pantai yang indah hingga pegunungan yang megah, kami memiliki semua yang Anda cari, Nikmati perjalanan tanpa repot dengan paket liburan kami yang lengkap. Kami menawarkan berbagai pilihan paket liburan yang disesuaikan dengan kebutuhan dan anggaran Anda
+        </p>
+    </div>
+</section>
+
+<section id="tentang">
+    <div class="home" style="font-size: 25px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; ">Tentang<span style="color: coral; font-size: 22px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Kami</span></div>
+    <div>
+        <p class="p-content2">
+            Dunia ini penuh dengan keindahan yang menakjubkan, keajaiban alam yang mengagumkan, dan budaya yang kaya. Namun, untuk menjelajahi semua itu, Anda memerlukan mitra perjalanan yang dapat dipercaya untuk membimbing Anda melintasi setiap petualangan. Inilah mengapa Iklas Muda Perkasa Tour and Travel hadir - untuk membawa Anda menuju petualangan tak terlupakan yang akan membekas di hati dan pikiran Anda selamanya. <br> <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Iklas Muda Perkasa Tour and Travel
+            </h3> <br>Iklas Muda Perkasa Tour and Travel bukan sekadar agen perjalanan biasa. Kami adalah sahabat perjalanan Anda yang setia, yang siap mengantarkan Anda melintasi setiap perjalanan dengan kenyamanan, keamanan, dan kesenangan yang tak terbatas. Sejak berdiri, kami telah menyediakan layanan tour and travel yang terpercaya dan berkualitas, memastikan setiap pelanggan kami kembali dengan kenangan yang tak terlupakan.
+        </p>
+    </div>
+</section>
+    <!-- Content End -->
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-logo text-center">
+            <img src="./images/logo.png" alt=""/>
+        </div>
+        <div class="socail-links text-center">
+            <a href="https://www.facebook.com/iklasmudaperkasa"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/iklasmudaperkasa"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="credits text-center">
+            Designed By <a href="#"> <span>CV.Iklas Muda Perkasa</span></a>
+            <br>
+            &copy; 2024 Iklas Muda Perkasa.
+        </div>
+    </footer>
+    <a href="#" class="arrow">
+        <i><img src="./images/up-arrow.png" alt="" width="50px"/></i>
+    </a>
+    <!-- Footer end -->
+    
+    <script>
+        // Fungsi untuk menangani pengguliran ke bagian "Home" saat tombol "Home" ditekan
+        document.getElementById('home-link').addEventListener('click', function(event) {
+            event.preventDefault(); // Menghentikan perilaku default dari link
+            // Menggunakan smooth scrolling ke bagian "home"
+            document.querySelector('#homepage').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    
+    <script>
+        // Fungsi untuk menangani pengguliran ke bagian "Tentang" saat tombol "Tentang" ditekan
+document.querySelector('.tentang-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Menghentikan perilaku default dari link
+    // Menggunakan smooth scrolling ke bagian "tentang"
+    document.querySelector('#tentang').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
+    </script>
+</body>
+</html>

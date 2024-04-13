@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .all-content {
+        background: #f7f5f2;
+      }
+      html ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      html ::-webkit-scrollbar-thumb {
+        background: #b2744c;
+        border-radius: 10px;
+      }
+      html ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+    /* Navbar */
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: coral;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.button:hover{
+    background-color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+
+.navbar-h2{
+    display: flex;
+    margin-top: -75px;
+    height: 10vh;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2{
+    color: whitesmoke;
+    border: 1px solid #333;
+    display: flex;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 7px;
+}
+
+.ul-logo{
+    display: flex;
+    margin-top: -60px;
+}
+
+    /* Navbar End */
+
+
+    /* Content */
+#home{
+    border: 1px solid #333;
+    background-image: url(assets/pantai2.jpg);
+    background-size: cover;
+}
+
+.container-content{
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+    padding-top: 170px;
+    margin: 40px;
+}
+
+.h3-content{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+.p-content{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.h2-content{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-content2{
+    display: flex;
+    margin: 7px;
+    padding: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    /* Content End */
+
+
+    /*footer */
+#footer {
+    background-color: coral;
+    color: #333; 
+    text-align: center; 
+    border: 1px solid #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.credits a {
+    color: #fff; 
+}
+
+.arrow {
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    display: none;
+}
+
+.arrow i {
+    background-color: #333;
+    padding: 10px; 
+    border-radius: 50%;
+    transition: background-color 0.3s ease; 
+}
+
+.footer-logo img {
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .socail-links i {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin: 3px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Fotter End */
